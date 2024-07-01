@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- font-family link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,40..300&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Responsive CSS file -->
+  <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+  <!-- Profile-card -->
+  <main class="profile-card">
+
+    <!-- profile-card-background image -->
+    <picture class="profile-card__card-bg">
+      <img src="./images/bg-pattern-card.svg" alt="card-bg">
+    </picture>
+
+    <!-- User's profile start -->
+    <section class="profile-card__profile">
+
+      <!-- User's profile image -->
+      <img src="./images/image-victor.jpg" alt="user-image">
+
+      <!-- User's profile information -->
+      <div class="profile-card__profile-info">
+        <h3 class="profile-card__name">Victor Crest</h3>
+        <span class="profile-card__age">26</span>
+        <p class="profile-card__place">London</p>
+      </div>
+
+      <!-- User's followers -->
+      <div class="profile-card__stat">
+        <h4 class="profile-card__value">80K</h4>
+        <span class="profile-card__label">Followers</span>
+      </div>
+
+      <!-- User's Likes -->
+      <div class="profile-card__stat">
+        <h4 class="profile-card__value">803K</h4>
+        <span class="profile-card__label">Likes</span>
+      </div>
+
+      <!-- User's Photo -->
+      <div class="profile-card__stat">
+        <h4 class="profile-card__value">1.4K</h4>
+        <span class="profile-card__label">Photos</span>
+      </div>
+    </section>
+    <!-- user's profile end -->
+  </main>
+</body>
+</html>

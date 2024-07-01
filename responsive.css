@@ -1,0 +1,10 @@
+
+/* For Mobile view */
+@media (max-width: 400px) {  
+    body {
+        background-position: right 40vw bottom 60vh, left 25vw top 50vh;
+    }
+    .profile-card {
+        width: 85%;
+    }
+}
